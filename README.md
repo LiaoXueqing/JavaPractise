@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Java编程基础
 
 ## 练习描述
@@ -36,3 +37,6 @@ git clone repo_of_this_template
 - 使用快捷键编码
 
 
+=======
+# JavaPractise
+>>>>>>> 57db067e11d1d00633b0c6346a19168b92a62def
