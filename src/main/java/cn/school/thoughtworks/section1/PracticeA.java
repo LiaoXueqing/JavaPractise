@@ -7,10 +7,6 @@ import java.util.stream.Collectors;
 public class PracticeA {
     List<String> collectSameElements(List<String> collection1, List<String> collection2) {
         //实现练习要求，并改写该行代码。
-        List<String> list = new ArrayList<>();
-        for (String s1 : collection1) {
-            list.addAll(collection2.stream().filter(s2 -> s1.equals(s2)).collect(Collectors.toList()));
-        }
-        return list;
+        return collection1.stream().filter(s1->collection2.contains(s1)).collect(Collectors.toList());
     }
 }
